@@ -26,44 +26,11 @@ function validatePage() {
 
 
 
-
-        console.log(fornavnInput.value);
-        console.log(etternavnInput.value);
-        console.log(mobilInput.value);
-        console.log(password.value);
-        console.log(password_rep.value);
-        console.log(kjonn);
-
-
-
-
-        // window.onload = function() {
-        //     paameldt_fornavn.innerHTML = fornavnInput.value = localStorage.getItem("fornavn");
-        //     paameldt_etternavn.innerHTML = etternavnInput.value = localStorage.getItem("etternavn");
-        //     paameldt_kjonn.innerHTML = localStorage.getItem("kjonn");
-        //     paameldt_nr.innerHTML = localStorage.getItem("mobil");
-        // };
-
-
-
-
-
-
     }
-
-
-
 
 
 
 }
 validatePage();
 
-window.addEventListener("load", () => {
-    if (paameldt_fornavn && paameldt_etternavn && paameldt_kjonn && paameldt_nr) {
-        paameldt_fornavn.textContent = localStorage.getItem("fornavn") || "";
-        paameldt_etternavn.textContent = localStorage.getItem("etternavn") || "";
-        paameldt_kjonn.textContent = localStorage.getItem("kjonn") || "";
-        paameldt_nr.textContent = localStorage.getItem("mobil") || "";
-    }
-});
+

@@ -12,9 +12,18 @@ public class HelloController {
         return "paamelding_med_melding"; // viser JSP
     }
 
-    @PostMapping("/hello")
-    public String sayHello(@RequestParam String name, Model model) {
-        model.addAttribute("name", name);
-        return "paameldt"; // viser JSP
+    @PostMapping("/paameld")
+    public String paameld(
+            @RequestParam String fornavn,
+            @RequestParam String etternavn,
+            @RequestParam String mobil,
+            @RequestParam String kjonn,
+            Model model
+    ) {
+        model.addAttribute("fornavn", fornavn);
+        model.addAttribute("etternavn", etternavn);
+        model.addAttribute("mobil", mobil);
+        model.addAttribute("kjonn", kjonn);
+        return "paameldt"; // -> /WEB-INF/paameldt.jsp
     }
 }
