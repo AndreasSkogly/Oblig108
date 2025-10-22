@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Oblig1.iml" filepath="$PROJECT_DIR$/Oblig1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Oblig_spring/Oblig_spring.iml" filepath="$PROJECT_DIR$/Oblig_spring/Oblig_spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springBoot/springBoot.iml" filepath="$PROJECT_DIR$/../springBoot/springBoot.iml" />
     </modules>
   </component>
 </project>

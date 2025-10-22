@@ -11,6 +11,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="erere" target="23" />
+      <module name="springBoot" target="23" />
       <module name="SpringMVC" target="1.8" />
       <module name="untitled" target="23" />
     </bytecodeTargetLevel>
