@@ -6,15 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-mvc-db-template" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="erere" target="23" />
-      <module name="Oblig_spring" target="23" />
-      <module name="springBoot" target="23" />
-      <module name="SpringMVC" target="1.8" />
-      <module name="untitled" target="23" />
-      <module name="weboppg8" target="23" />
-    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-mvc-db-template" options="-parameters" />
+    </option>
   </component>
 </project>
