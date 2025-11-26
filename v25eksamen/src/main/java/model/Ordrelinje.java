@@ -22,7 +22,7 @@ public class Ordrelinje {
         this.vare = vare;
     }
 
-    public int getBelop() {
-        return vare.ge
-    }
+   public int getBelop() {
+        return vare.getPris() * antall;
+   }
 }

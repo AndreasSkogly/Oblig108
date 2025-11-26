@@ -1,18 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 
     <title>Title</title>
 </head>
 <body>
     <h1>Våre populære buttons!</h1>
-    <class>
+    <div>
         <table>
             <tr>
-                <th placeholder="bilde1" src=""></th>
-                <th placeholder="bilde2"></th>
-                <th placeholder="bilde3"></th>
+                <th><img src="${pageContext.request.contextPath}/resources/bilder/knapp1.png" alt="bilde1"></th>
+                <th><img src="${pageContext.request.contextPath}/resources/bilder/knapp2.png" alt="bilde2"></th>
+                <th><img src="${pageContext.request.contextPath}/resources/bilder/knapp3.png" alt="bilde3"></th>
             </tr>
             <tr>
                 <th>${knapp1.navn} navn1</th>
@@ -30,7 +31,7 @@
                 <th>Antall: <input type="number"> <button type="submit">Legg til i handlekurv</button></th>
             </tr>
         </table>
-    </class>
+    </div>
 
 </body>
 </html>
